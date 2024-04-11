@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b31bffb672.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <nav>
+                <img src="./image/Logo.png" alt="logo">
+           
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+               <h3> <i class="fa-solid fa-bars"></i></h3>
+             </nav> 
+        </div>
+        <div class="about-section">
+            <div class="content">
+                <p 
+                    style=
+                    "margin-bottom: 20px;
+                    font-size: 25px;
+                    font-weight: 600;"
+                >
+                    Hello,
+                </p>
+                <p style="font-size: 25px;">I am  
+                    <span 
+                        style=
+                          
+                            "font-weight:bold;
+                            font-size: 35px;
+                            font-family:sans-serif; "
+                    >
+                     Sima Thapa
+                    </span>
+                </p>
+                <h1 style=
+                    "font-weight: 600;
+                    padding-left: 30px;
+                    margin:20px 0px;
+                    "
+                >
+                        Web Developer
+                </h1>
+                <h3 style="font-size: 25px;">
+                    I build things for Web. I am learner and want to explore in the web development field.
+                </h3>
+            </div>
+            <div class="profile">
+                <img src="./image/image2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- about Me -->
+    <div id="about">
+        <div class="picture">
+            <img src="image/image1.jpeg" height="300px" width="400px" alt="image">
+
+        </div>
+        <div class="aboutMe">
+            <h2 
+                style="color: #fff;
+                      font-size:35px;
+                      text-align: center;
+                      "
+            >
+                About Me
+            </h2>
+            <h5  
+                style="
+                font-size: 20px;"
+            >
+                I'm a web developer with a focus on the MERN stack. if you're looking for a developer to add to your team, I'd love to hear from you!
+            </h5>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+         </div>
+
+         <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>node js</li>
+                <li>MongoDb</li>
+            </ul>
+         </div>  
+         <div class="tab-contents" id="education">
+            <ul>
+                <li>+2:Shree Tribhuwan Bal Secondary School,Nawalparasi</li>
+                <li>BEIT from Everest engineering college,Lalitpur</li>
+                
+            </ul>
+         </div>
+         <div class="tab-contents" id="experience">
+            <ul>
+                <li>No Experience</li>
+              
+            </ul>
+         </div>    
+             
+               
+        </div> 
+
+    </div>
+
+
+   <!-- services -->
+   <div id="services">
+    <div class="container">
+        <h1 class="myServices">My services</h1>
+        <div class="servicesList">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>A website is a collection of files accessed through a web address, covering a particular theme or subject, and managed by a particular person or organization. Its opening page is called a home page.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX design focuses on creating a seamless and meaningful user experience by understanding user needs, conducting research, and designing intuitive interfaces, while UI design focuses on the visual, interactive elements of a product to create aesthetically-pleasing interfaces.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+    
+   </div>
+
+   <!-- My Work -->
+   <div id="portfolio">
+    <div class="container">
+        <h1>My Work</h1>
+        <div class="workList">
+            <div class="work1">
+                <img src="./image/calculator.png" height="400px" width="100%" alt="img1">
+                    <h2>Calculator</h2>
+                    <p>
+                        You can make a simple calculator using just core web technologies: HTML, CSS, and JavaScript. This calculator can perform basic mathematical operations like addition, subtraction, multiplication, and division.
+                        How to Make a Calculator with HTML CSS and Java
+                    </p>
+                   <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> 
+
+            </div>
+            <div class="work2">
+            
+                <img src="./image/img2.jpg" height="400px" width="100%" alt="img2">
+                
+                    <h2>website</h2>
+                    <p>
+                        Create the structure with HTML. The first thing you have to learn, is HTML, which is the standard markup language for creating web pages.
+                        Style with CSS.Make it interactive with JavaScript. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> 
+
+
+            </div>    
+            
+            <div class="work3">
+                <img src="./image/digitalClock.gif"  height="400px" width="100%" alt="img3">
+               
+                    <h2>digital clock</h2>
+                    <p>
+                        Clocks are useful elements for any UI if used in a proper way. Clocks can be used on sites where time is the main concern like some booking sites or some app showing arriving times of trains, buses, flights, etc. The clock is basically of two types, Analog and Digital. We will be looking at making a digital one 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> 
+
+                
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- contact section -->
+
+   <div id="contact">
+    <div class="contact-section">
+        <h1 style="margin-bottom: 20px;">Contact Me:</h1>
+
+        <h3 style="margin-bottom: 20px;">
+            <i class="fa-solid fa-paper-plane"></i> :<span style=" font-size: 30px;">simathapa3333@gmail.com</span>
+        </h3>
+        <h3 style="margin-bottom: 20px;">
+            <i class="fa-solid fa-phone"></i>: <Span style="font-size: 30px;">9824568908</Span>
+        </h3>
+        
+        <div class="social-icons">
+            <a href="#" style="color: #1877F2;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="color: #fbad50"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" style="color:  #0a66c2;"> <i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        <a href="./image/cv.png" download class="download-btn btn2">Download CV</a>
+    </div>
+    <div class="form-section">
+      <h1 style="margin-left: 70px;">Form</h1>
+      <form>
+        <label >Full Name</label></br>
+        <input type="text" required></br>
+        <label >Email</label></br>
+        <input type="email" required></br>
+        <textarea >Message</textarea></br>
+        <button class="btn">Send</button>  
+      </form>
+    </div>
+   </div>
+  <!-- copyright section -->
+<div id="copyright">
+    <h1>Copyright@2024</h1>
+</div>
+
+
+    <!-- javascript begins here -->
+    <script>
+        var tablinks=document.getElementsByClassName('tab-links');
+        var tabContents=document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname){
+            // this will remove the underline and the content of the active content
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabContents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            //to show the active line 
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+
+        }
+    </script>
+
+  
+    
+</body>
+</html>
